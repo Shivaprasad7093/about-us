@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    color: #1a1a1a;
+
+}
+
+.team-section {
+    text-align: center;
+}
+
+.hiring-title {
+    color: 7c3aed;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+}
+
+.team-button {
+    margin-bottom: 2rem;
+}
+
+.bnt {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.bnt.purple {
+    background-color: #7c3aed;
+    color: #fff;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.team-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 0.9rem;
+    color: #7c3aed;
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    font-size: 0.9rem;
+    color: #7c3aed;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .section-description {
+        font-size: 1.1rem;
+    }
+
+    .bnt {
+        font-size: 1.1rem;
+    }
+}
